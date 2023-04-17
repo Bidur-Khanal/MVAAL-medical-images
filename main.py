@@ -19,7 +19,6 @@ from multi_label_classification_task_solver import train_multilabel_classifier
 from binary_classification import train_classifier
 from multiclass_classification import train_multiclass_classifier
 from freeze_layers import LeNet_Freeze_Upto, ResNet18_Freeze_Upto
-from sampler import EntropySampler
 
 ## Set Seed
 def fix_seed(seed):
@@ -81,6 +80,7 @@ def main(args):
         args.initial_budget = 200
         args.num_classes = 2
         args.num_channels= 1
+        args.query_channels = 1
 
     elif args.dataset == 'brats_MIUA_HGG_3channel':
         
@@ -118,6 +118,7 @@ def main(args):
         args.num_channels= 1
         args.query_channels = 3
 
+
     elif args.dataset == 'brats_MIUA_LGG':
         
         crop = tuple(int(i) for i in args.crop.split(","))
@@ -134,6 +135,7 @@ def main(args):
         args.initial_budget = 200
         args.num_classes = 2
         args.num_channels= 1
+        args.query_channels = 1
 
     elif args.dataset == 'brats_MIUA_HGG_and_LGG':
         
@@ -151,6 +153,7 @@ def main(args):
         args.initial_budget = 200
         args.num_classes = 2
         args.num_channels= 1
+        args.query_channels = 1
 
 
     elif args.dataset == 'COVID_dataset_binary':
