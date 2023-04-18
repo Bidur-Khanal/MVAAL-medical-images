@@ -43,22 +43,24 @@ There are several hyperparameters that need to properly tunned to optimize the p
 
 We compared M-VAAL against VAAL and randomsampling three downstream tasks: tumor segmentation, multi-label tumor type classification, and multi-class chest-Xray Infection classifcation.
 <p align="center">
-<img src="images/brats_seg.png"  width="400" height="200" /><br>
+<img src="images/brats_seg.png"  width="500" height="250" /><br>
 BraTS Whole Tumor Segmentation
 </p>
 
 <p align="center">
-<img src="images/brats_cls.png"  width="400" height="200" /><br>
+<img src="images/brats_cls.png"  width="500" height="250" /><br>
 BraTS Tumor Type Multi-Label Classification
 </p>
 
 <p align="center">
-<img src="images/covid_cls.png"  width="400" height="200" /><br>
+<img src="images/covid_cls.png"  width="500" height="250" /><br>
 Chest X-ray Multi-Class classification
 </p>
 
 #### Qualitative Results
-![brats_seg_comparison](images/comparison.png)
+<p align="center">
+<img src="images/comparison.png"  width="600" height="310" /><br>
+</p>
 
 White denotes the region overlapped between two segmentation maps, blue denotes the region missed by the first method compared to second, and red denotes the region added by the first method. 
 
