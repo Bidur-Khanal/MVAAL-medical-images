@@ -43,11 +43,11 @@ There are several hyperparameters that need to properly tunned to optimize the p
 
 We compared M-VAAL against VAAL and randomsampling three downstream tasks: tumor segmentation, multi-label tumor type classification, and multi-class chest-Xray Infection classifcation.
 
-![brast_seg](images/brats_seg.png)<center> BraTS Whole Tumor Segmentation </center>
+![brast_seg](images/brats_seg.png)BraTS Whole Tumor Segmentation
 
-![brats_cls](images/brats_cls.png)<center> BraTS Tumor Type Multi-Label Classification </center>
+![brats_cls](images/brats_cls.png)BraTS Tumor Type Multi-Label Classification
 
-![covid_cls](images/covid_cls.png)<center> Chest X-ray Multi-Class classification </center>
+![covid_cls](images/covid_cls.png)Chest X-ray Multi-Class classification
 
 #### Qualitative Results
 ![brats_seg_comparison](images/comparison.png)
