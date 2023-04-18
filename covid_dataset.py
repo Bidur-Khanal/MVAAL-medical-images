@@ -60,7 +60,7 @@ class COVID19_Xray_binary(Dataset):
         # broast cast all images to 3 channel
         image = image.repeat(3,1,1)
         
-        return  image, mask, target
+        return   image, target, mask
       
 
 
@@ -154,7 +154,7 @@ class COVID19_Xray(Dataset):
         # broast cast all images to 3 channel
         image = image.repeat(3,1,1)
         
-        return  image, mask, target
+        return  image, target, mask
       
 
 
