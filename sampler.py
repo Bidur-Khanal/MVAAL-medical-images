@@ -30,7 +30,6 @@ class AdversarySampler:
         # need to multiply by -1 to be able to use torch.topk 
         all_preds *= -1
 
-        print (all_preds)
 
         # select the points which the discriminator thinks are the most likely to be unlabeled
         _, querry_indices = torch.topk(all_preds, int(self.budget))

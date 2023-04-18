@@ -124,9 +124,6 @@ class multi_modal_VAAL_Solver:
                     lab_real_preds = lab_real_preds.to(device=self.args.device)
                     unlab_real_preds = unlab_real_preds.to(device=self.args.device)
 
-
-                    # dsc_loss = self.bce_loss(labeled_preds[:,0], lab_real_preds) + \
-                    #         self.bce_loss(unlabeled_preds[:,0], unlab_real_preds)
                     
                     # change to GANGP
                     real_loss = labeled_preds.mean()
