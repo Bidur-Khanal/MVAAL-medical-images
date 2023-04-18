@@ -47,7 +47,7 @@ def train_multiclass_classifier(args,net, train_loader, val_loader, test_loader,
         net.train()
         epoch_loss = 0
         with tqdm(total=len(train_loader)*args.batch_size, desc=f'Epoch {epoch}/{epochs}', unit='img') as pbar:
-            for images, masks,labels in train_loader:
+            for images, labels, masks in train_loader:
 
                 
                 images = images.to(device=args.device, dtype=torch.float32)
@@ -116,7 +116,7 @@ def evaluate(net, dataloader, device,args):
     all_predictions = []
 
     # iterate over the validation set
-    for image,_, labels in tqdm(dataloader, total=num_val_batches, desc='Validation round', unit='batch', leave=False):
+    for image,labels, _ in tqdm(dataloader, total=num_val_batches, desc='Validation round', unit='batch', leave=False):
         
         # move images and labels to correct device and type
         image = image.to(device=device, dtype=torch.float32)
