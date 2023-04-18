@@ -59,7 +59,7 @@ Chest X-ray Multi-Class classification
 
 #### Qualitative Results
 <p align="center">
-<img src="images/comparison.png"  width="600" height="310" /><br>
+<img src="images/comparison.png"  width="700" height="340" /><br>
 </p>
 
 White denotes the region overlapped between two segmentation maps, blue denotes the region missed by the first method compared to second, and red denotes the region added by the first method. 
