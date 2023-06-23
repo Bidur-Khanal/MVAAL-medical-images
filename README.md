@@ -14,7 +14,7 @@ conda create -n <environment-name> --file requirements.txt
 ```
 
 ### Datasets 
-We experiments with 210 High-Grade Gliomas [BraTS2018](https://www.kaggle.com/datasets/sanglequang/brats2018?select=MICCAI_BraTS_2018_Data_Training) and [COVID-QU-Ex](https://www.kaggle.com/datasets/cf77495622971312010dd5934ee91f07ccbcfdea8e2f7778977ea8485c1914df?select=Infection+Segmentation+Data) (COVID-19 infection
+We experimented with 210 High-Grade Gliomas [BraTS2018](https://www.kaggle.com/datasets/sanglequang/brats2018?select=MICCAI_BraTS_2018_Data_Training) and [COVID-QU-Ex](https://www.kaggle.com/datasets/cf77495622971312010dd5934ee91f07ccbcfdea8e2f7778977ea8485c1914df?select=Infection+Segmentation+Data) (COVID-19 infection
 segmentation)   datasets. Data preprocessing steps are shown in BRATS_dataset_creator.ipynb and covid_visualizer.ipynb
 
 
