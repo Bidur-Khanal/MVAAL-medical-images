@@ -65,4 +65,17 @@ Chest X-ray Multi-Class classification
 White denotes the region overlapped between two segmentation maps, blue denotes the region missed by the first method compared to second, and red denotes the region added by the first method. 
 
 
+This work has been accepted at 27th Conference on Medical Image Understanding and Analysis 2023. Please use the following bibtex to cite our [paper](https://arxiv.org/abs/2306.12376).
+
+```
+@article{khanal2023m,
+  title={M-VAAL: Multimodal Variational Adversarial Active Learning for Downstream Medical Image Analysis Tasks},
+  author={Khanal, Bidur and Bhattarai, Binod and Khanal, Bishesh and Stoyanov, Danail and Linte, Cristian A},
+  journal={arXiv preprint arXiv:2306.12376},
+  year={2023}
+}
+```
+
+
+
 
