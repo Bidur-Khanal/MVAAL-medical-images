@@ -26,8 +26,10 @@ python3 main.py --dataset <Dataset> --expt <Experiment Name> --method <Sampling 
 
 In our paper, we used the following combination of arguments:
 ```
---dataset brats_MIUA_HGG_3channel_classification --task_type multi_label_classification 
+--dataset brats_MIUA_HGG_3channel_classification --task_type multi_label_classification
+OR 
 --dataset brats_MIUA_HGG_3channel --task_type segmentation
+OR
 --dataset COVID_dataset_3_classes --task_type multi_class_classification
 
 ```
